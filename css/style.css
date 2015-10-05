@@ -20,7 +20,7 @@ body {
   font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
-  background-image: url("images/clover.gif");
+  background-image: url("images/clover.png");
 }
 .wrapper {
   width: 680px;

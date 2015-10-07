@@ -37,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #069;
+  color: #ccc;
   text-decoration: none;
 }
 p {
@@ -281,7 +281,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #069;
+  color: #ccc;
 }
 article .entry {
   font-size: 0.95em;
@@ -502,7 +502,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  background: #069;
+  background: #ccc;
   color: #fff;
   text-decoration: none;
 }

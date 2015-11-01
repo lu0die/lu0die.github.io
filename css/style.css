@@ -68,14 +68,14 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #b2d2e1 -webkit-linear-gradient(#b2d2e1, #b2d2e1);
-  background: #b2d2e1 -moz-linear-gradient(#b2d2e1, #b2d2e1);
-  background: #b2d2e1 -o-linear-gradient(#b2d2e1, #b2d2e1);
-  background: #b2d2e1 -ms-linear-gradient(#b2d2e1, #b2d2e1);
-  background: #b2d2e1 linear-gradient(#b2d2e1, #b2d2e1);
+  background: #cbdee1 -webkit-linear-gradient(#cbdee1, #cbdee1);
+  background: #cbdee1 -moz-linear-gradient(#cbdee1, #cbdee1);
+  background: #cbdee1 -o-linear-gradient(#cbdee1, #cbdee1);
+  background: #cbdee1 -ms-linear-gradient(#cbdee1, #cbdee1);
+  background: #cbdee1 linear-gradient(#cbdee1, #cbdee1);
   position: relative;
   padding: 15px 30px;
-  border-bottom: 1px solid #b2d2e1;
+  border-bottom: 1px solid #cbdee1;
 }
 #header .title {
   float: left;

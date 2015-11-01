@@ -74,8 +74,8 @@ strong {
   background: #dce7e9 -ms-linear-gradient(#dce7e9, #dce7e9);
   background: #dce7e9 linear-gradient(#dce7e9, #dce7e9);
   position: relative;
-  padding: 15px 30px;
-  border-bottom: 1px solid #b2d2e1;
+  padding: 17px 30px;
+  border-bottom: 1px solid #dce7e9;
 }
 #header .title {
   float: left;

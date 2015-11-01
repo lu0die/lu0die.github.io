@@ -68,11 +68,11 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #dce7e9 -webkit-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 -moz-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 -o-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 -ms-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 linear-gradient(#dce7e9, #dce7e9);
+  background: #b2d2e1 -webkit-linear-gradient(#b2d2e1, #b2d2e1);
+  background: #b2d2e1 -moz-linear-gradient(#b2d2e1, #b2d2e1);
+  background: #b2d2e1 -o-linear-gradient(#b2d2e1, #b2d2e1);
+  background: #b2d2e1 -ms-linear-gradient(#b2d2e1, #b2d2e1);
+  background: #b2d2e1 linear-gradient(#b2d2e1, #b2d2e1);
   position: relative;
   padding: 15px 30px;
   border-bottom: 1px solid #b2d2e1;

@@ -68,13 +68,12 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #dce7e9 -webkit-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 -moz-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 -o-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 -ms-linear-gradient(#dce7e9, #dce7e9);
-  background: #dce7e9 linear-gradient(#dce7e9, #dce7e9);
+  background: url("images/header.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
   position: relative;
-  padding: 15px 30px;
+  padding: 30px 30px;
   border-bottom: 1px solid #b2d2e1;
 }
 #header .title {

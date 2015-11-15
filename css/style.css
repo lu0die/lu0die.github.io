@@ -68,14 +68,13 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #dad6cd -webkit-linear-gradient(#dad6cd, #dad6cd);
-  background: #dad6cd -moz-linear-gradient(#dad6cd, #dad6cd);
-  background: #dad6cd -o-linear-gradient(#dad6cd, #dad6cd);
-  background: #dad6cd -ms-linear-gradient(#dad6cd, #dad6cd);
-  background: #dad6cd linear-gradient(#dad6cd, #dad6cd);
+  background: url("images/header.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
   position: relative;
-  padding: 16px 30px;
-  border-bottom: 1px solid #dad6cd;
+  padding: 15px 30px;
+  border-bottom: 1px solid #b2d2e1;
 }
 #header .title {
   float: left;

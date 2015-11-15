@@ -20,7 +20,6 @@ body {
   font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
-  background-image: url("images/clover.png");
 }
 .wrapper {
   width: 680px;
@@ -37,7 +36,7 @@ footer {
   display: block;
 }
 a {
-  color: #aaa oo;
+  color: #069;
   text-decoration: none;
 }
 p {
@@ -49,7 +48,11 @@ strong {
   font-weight: 700;
 }
 .content {
-  background: url("images/paper.png");
+  background: -webkit-linear-gradient(#fafafa, #dedede 700px);
+  background: -moz-linear-gradient(#fafafa, #dedede 700px);
+  background: -o-linear-gradient(#fafafa, #dedede 700px);
+  background: -ms-linear-gradient(#fafafa, #dedede 700px);
+  background: linear-gradient(#fafafa, #dedede 700px);
   -webkit-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
   border-top: 1px solid #fff;
@@ -277,7 +280,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #aaa oo;
+  color: #069;
 }
 article .entry {
   font-size: 0.95em;
@@ -498,7 +501,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  background: #aaa oo;
+  background: #069;
   color: #fff;
   text-decoration: none;
 }

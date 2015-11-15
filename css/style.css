@@ -18,7 +18,7 @@ body {
   padding: 50px 0;
   margin: 0;
   font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: #555;
+  color: #e0e1ed;
   font-weight: 300;
   background-image: url("images/clover.png");
 }
@@ -79,20 +79,20 @@ strong {
 #header .title {
   float: left;
 }
-color #e4e4ee .nav {
+#header .nav {
   float: right;
   font-size: 0.875em;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 2.5em;
 }
-color #e4e4ee .nav ul {
+#header .nav ul {
   list-style: none;
 }
-color #e4e4ee .nav ul li {
+#header .nav ul li {
   float: left;
   margin-left: 26px;
 }
-color #e4e4ee h1 {
+#header h1 {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
@@ -101,10 +101,10 @@ color #e4e4ee h1 {
   color: #069;
   text-shadow: rgba(255,255,255,0.9) 0 1px 0;
 }
-color #e4e4ee.without-description h1 {
+#header.without-description h1 {
   margin: 10px 0;
 }
-color #e4e4ee p {
+#header p {
   margin: 0;
   color: #61778b;
   width: 300px;

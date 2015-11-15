@@ -79,6 +79,9 @@ strong {
 #header .title {
   float: left;
 }
+#header a {
+  color: #fff;
+}
 #header .nav {
   float: right;
   font-size: 0.875em;

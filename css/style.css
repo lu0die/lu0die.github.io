@@ -37,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #b6b6b6;
+  color: #9b9f9b;
   text-decoration: none;
 }
 p {
@@ -275,7 +275,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #b6b6b6;
+  color: #9b9f9b;
 }
 article .entry {
   font-size: 0.95em;
@@ -496,7 +496,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "PT Serif", "Microsoft Yahei";
-  background: #b6b6b6;
+  background: #9b9f9b;
   color: #fff;
   text-decoration: none;
 }

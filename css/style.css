@@ -75,6 +75,8 @@ strong {
   position: relative;
   padding: 15px 30px;
   border-bottom: 1px solid #b2d2e1;
+a
+  color: #eee;
 }
 #header .title {
   float: left;
@@ -98,7 +100,7 @@ strong {
   font-size: 1.5em;
   font-weight: normal;
   line-height: 1.2;
-  color: #e4e4ee;
+  color: #069;
   text-shadow: rgba(255,255,255,0.9) 0 1px 0;
 }
 #header.without-description h1 {

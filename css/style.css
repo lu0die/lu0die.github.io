@@ -37,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #f5afcb;
+  color: #aaa oo;
   text-decoration: none;
 }
 p {
@@ -76,23 +76,26 @@ strong {
   padding: 15px 30px;
   border-bottom: 1px solid #b2d2e1;
 }
-#header .title {
+a {
+  color: #eee;
+}
+a .title {
   float: left;
 }
-#header .nav {
+a .nav {
   float: right;
   font-size: 0.875em;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 2.5em;
 }
-#header .nav ul {
+a .nav ul {
   list-style: none;
 }
-#header .nav ul li {
+a .nav ul li {
   float: left;
   margin-left: 26px;
 }
-#header h1 {
+a h1 {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
@@ -101,10 +104,10 @@ strong {
   color: #069;
   text-shadow: rgba(255,255,255,0.9) 0 1px 0;
 }
-#header.without-description h1 {
+a.without-description h1 {
   margin: 10px 0;
 }
-#header p {
+a p {
   margin: 0;
   color: #61778b;
   width: 300px;
@@ -239,7 +242,7 @@ article header .icon {
   left: 0px;
   margin-left: -46px;
   color: #fff;
-  background: #f5afcb;
+  background: #aaa oo;
   -webkit-border-radius: 100em;
   border-radius: 100em;
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
@@ -276,7 +279,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #f5afcb;
+  color: #aaa oo;
 }
 article .entry {
   font-size: 0.95em;
@@ -497,7 +500,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  background: #f5afcb;
+  background: #aaa oo;
   color: #fff;
   text-decoration: none;
 }

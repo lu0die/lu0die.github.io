@@ -37,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #069;
+  color: #a00;
   text-decoration: none;
 }
 p {
@@ -106,7 +106,7 @@ strong {
 }
 #header p {
   margin: 0;
-  color: #ecf1f5;
+  color: #61778b;
   width: 300px;
   font-size: 0.8125em;
   font-style: italic;
@@ -239,7 +239,7 @@ article header .icon {
   left: 0px;
   margin-left: -46px;
   color: #fff;
-  background: #069;
+  background: #b00;
   -webkit-border-radius: 100em;
   border-radius: 100em;
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
@@ -276,7 +276,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #069;
+  color: #a00;
 }
 article .entry {
   font-size: 0.95em;
@@ -497,7 +497,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  background: #069;
+  background: #a00;
   color: #fff;
   text-decoration: none;
 }

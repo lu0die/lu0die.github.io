@@ -18,7 +18,7 @@ body {
   padding: 50px 0;
   margin: 0;
   font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: #555;
+  color: #6b5d5d;
   font-weight: 300;
   background-image: url("images/clover.png");
 }
@@ -37,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #069;
+  color: #6b5d5d;
   text-decoration: none;
 }
 p {
@@ -68,13 +68,14 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: url("images/header.jpg");
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  background-size: 100% 100%;
+  background: #dad6cd -webkit-linear-gradient(#dad6cd, #dad6cd);
+  background: #dad6cd -moz-linear-gradient(#dad6cd, #dad6cd);
+  background: #dad6cd -o-linear-gradient(#dad6cd, #dad6cd);
+  background: #dad6cd -ms-linear-gradient(#dad6cd, #dad6cd);
+  background: #dad6cd linear-gradient(#dad6cd, #dad6cd);
   position: relative;
-  padding: 18px 30px;
-  border-bottom: 1px solid #b2d2e1;
+  padding: 16px 30px;
+  border-bottom: 1px solid #dad6cd;
 }
 #header .title {
   float: left;
@@ -276,7 +277,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #069;
+  color: #6b5d5d;
 }
 article .entry {
   font-size: 0.95em;
@@ -497,7 +498,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  background: #069;
+  background: #6b5d5d;
   color: #fff;
   text-decoration: none;
 }

@@ -68,10 +68,11 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: url("images/header.jpg");
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  background-size: 100% 100%;
+  background: #c6eafa -webkit-linear-gradient(#ddfbfc, #c6eafa);
+  background: #c6eafa -moz-linear-gradient(#ddfbfc, #c6eafa);
+  background: #c6eafa -o-linear-gradient(#ddfbfc, #c6eafa);
+  background: #c6eafa -ms-linear-gradient(#ddfbfc, #c6eafa);
+  background: #c6eafa linear-gradient(#ddfbfc, #c6eafa);
   position: relative;
   padding: 15px 30px;
   border-bottom: 1px solid #b2d2e1;
@@ -239,7 +240,7 @@ article header .icon {
   left: 0px;
   margin-left: -46px;
   color: #fff;
-  background: #aaa oo;
+  background: #069;
   -webkit-border-radius: 100em;
   border-radius: 100em;
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);

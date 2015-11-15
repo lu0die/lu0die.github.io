@@ -75,8 +75,6 @@ strong {
   position: relative;
   padding: 15px 30px;
   border-bottom: 1px solid #b2d2e1;
-a
-  color: #f7f7ff;
 }
 #header .title {
   float: left;
@@ -108,7 +106,7 @@ a
 }
 #header p {
   margin: 0;
-  color: #61778b;
+  color: #ecf1f5;
   width: 300px;
   font-size: 0.8125em;
   font-style: italic;

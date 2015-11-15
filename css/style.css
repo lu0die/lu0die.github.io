@@ -20,6 +20,7 @@ body {
   font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
+  background-image: url("images/clover.png");
 }
 .wrapper {
   width: 680px;
@@ -36,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #069;
+  color: #aaa oo;
   text-decoration: none;
 }
 p {
@@ -48,11 +49,7 @@ strong {
   font-weight: 700;
 }
 .content {
-  background: -webkit-linear-gradient(#fafafa, #dedede 700px);
-  background: -moz-linear-gradient(#fafafa, #dedede 700px);
-  background: -o-linear-gradient(#fafafa, #dedede 700px);
-  background: -ms-linear-gradient(#fafafa, #dedede 700px);
-  background: linear-gradient(#fafafa, #dedede 700px);
+  background: url("images/paper.png");
   -webkit-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
   border-top: 1px solid #fff;
@@ -71,11 +68,10 @@ strong {
 #header {
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #c6eafa -webkit-linear-gradient(#ddfbfc, #c6eafa);
-  background: #c6eafa -moz-linear-gradient(#ddfbfc, #c6eafa);
-  background: #c6eafa -o-linear-gradient(#ddfbfc, #c6eafa);
-  background: #c6eafa -ms-linear-gradient(#ddfbfc, #c6eafa);
-  background: #c6eafa linear-gradient(#ddfbfc, #c6eafa);
+  background: url("images/header.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
   position: relative;
   padding: 15px 30px;
   border-bottom: 1px solid #b2d2e1;
@@ -243,7 +239,7 @@ article header .icon {
   left: 0px;
   margin-left: -46px;
   color: #fff;
-  background: #069;
+  background: #aaa oo;
   -webkit-border-radius: 100em;
   border-radius: 100em;
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
@@ -280,7 +276,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #069;
+  color: #aaa oo;
 }
 article .entry {
   font-size: 0.95em;
@@ -501,7 +497,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
-  background: #069;
+  background: #aaa oo;
   color: #fff;
   text-decoration: none;
 }

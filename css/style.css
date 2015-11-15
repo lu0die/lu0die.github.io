@@ -17,7 +17,7 @@ html {
 body {
   padding: 50px 0;
   margin: 0;
-  font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 1em/1.5 "PT Serif", "Microsoft Yahei";
   color: #555;
   font-weight: 300;
   background-image: url("images/clover.png");
@@ -82,7 +82,7 @@ strong {
 #header .nav {
   float: right;
   font-size: 0.875em;
-  font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
   line-height: 2.5em;
 }
 #header .nav ul {
@@ -106,7 +106,7 @@ strong {
 }
 #header p {
   margin: 0;
-  color: #e8f0e8;
+  color: #61778b;
   width: 300px;
   font-size: 0.8125em;
 }
@@ -258,7 +258,7 @@ article header .icon:before {
   text-align: center;
 }
 article header time {
-  font: 0.9em "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 0.9em "PT Serif", "Microsoft Yahei";
   margin-bottom: 5px;
   display: block;
   line-height: 1;
@@ -495,7 +495,7 @@ article footer .tags:before {
 #pagination a {
   display: block;
   padding: 5px 10px;
-  font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", "Microsoft Yahei";
   background: #069;
   color: #fff;
   text-decoration: none;

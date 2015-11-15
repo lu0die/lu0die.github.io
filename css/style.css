@@ -17,7 +17,7 @@ html {
 body {
   padding: 50px 0;
   margin: 0;
-  font: 1em/1.5 "PT Serif", "Microsoft Yahei";
+  font: 1em/1.5 'Century Gothic', "Microsoft YaHei", Georgia, Verdana, Osaka, 'MS P Gothic';
   color: #555;
   font-weight: 300;
   background-image: url("images/clover.png");
@@ -82,7 +82,7 @@ strong {
 #header .nav {
   float: right;
   font-size: 0.875em;
-  font-family: "PT Serif", "Microsoft Yahei";
+  font-family: 'Century Gothic', "Microsoft YaHei", Georgia, Verdana, Osaka, 'MS P Gothic';
   line-height: 2.5em;
 }
 #header .nav ul {
@@ -258,7 +258,7 @@ article header .icon:before {
   text-align: center;
 }
 article header time {
-  font: 0.9em "PT Serif", "Microsoft Yahei";
+  font: 0.9em 'Century Gothic', "Microsoft YaHei", Georgia, Verdana, Osaka, 'MS P Gothic';
   margin-bottom: 5px;
   display: block;
   line-height: 1;
@@ -495,7 +495,7 @@ article footer .tags:before {
 #pagination a {
   display: block;
   padding: 5px 10px;
-  font-family: "PT Serif", "Microsoft Yahei";
+  font-family: 'Century Gothic', "Microsoft YaHei", Georgia, Verdana, Osaka, 'MS P Gothic';
   background: #9b9f9b;
   color: #fff;
   text-decoration: none;

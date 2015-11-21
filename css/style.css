@@ -37,7 +37,7 @@ footer {
   display: block;
 }
 a {
-  color: #a00;
+  color: #8e8f8e;
   text-decoration: none;
 }
 p {
@@ -241,7 +241,7 @@ article header .icon {
   left: 0px;
   margin-left: -46px;
   color: #fff;
-  background: #069;
+  background: #a00;
   -webkit-border-radius: 100em;
   border-radius: 100em;
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
@@ -278,7 +278,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #a00;
+  color: #8e8f8e;
 }
 article .entry {
   font-size: 0.95em;
@@ -499,7 +499,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "PT Serif", "Microsoft Yahei";
-  background: #a00;
+  background: #8e8f8e;
   color: #fff;
   text-decoration: none;
 }

@@ -1,8 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400italic,700italic,400,700");
 @font-face {
   font-family: 'FontAwesome';
   font-style: normal;
   font-weight: normal;
   src: url("fonts/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/fontawesome-webfont.woff") format('woff'), url("fonts/fontawesome-webfont.ttf") format('truetype'), url("fonts/fontawesome-webfont.svg#FontAwesomeRegular") format('svg');
+}
+@font-face {
+  font-family: 'Miltonian';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Miltonian'), local('Miltonian-Regular'), url("http://themes.googleusercontent.com/static/fonts/miltonian/v5/DVUl6K_XDo9HSLlx2JoxNT8E0i7KZn-EPnyo3HZu7kw.woff") format('woff');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url("http://themes.googleusercontent.com/static/fonts/bitter/v4/SHIcXhdd5RknatSgOzyEkA.woff") format('woff');
 }
 html {
   background: #6c7989;

@@ -549,39 +549,6 @@ article footer .tags:before {
 .archives-wrapper .archives > article header .title {
   font-size: 1.1em;
 }
-.archives-wrapper .prev,
-.archives-wrapper .next {
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  cursor: pointer;
-}
-.archives-wrapper .prev:before,
-.archives-wrapper .next:before {
-  position: absolute;
-  font: 24px/1 FontAwesome;
-  text-align: center;
-  width: 24px;
-  text-shadow: 0 0 15px rgba(0,0,0,0.5);
-  color: #fff;
-  margin-top: -12px;
-  top: 50%;
-}
-.archives-wrapper .prev {
-  left: 0;
-}
-.archives-wrapper .prev:before {
-  content: '\f053';
-  left: 10px;
-}
-.archives-wrapper .next {
-  right: 0;
-}
-.archives-wrapper .next:before {
-  content: '\f054';
-  right: 10px;
-}
 #footer {
   width: 680px;
   margin: 20px auto 0;

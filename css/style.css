@@ -542,16 +542,20 @@ article footer .tags:before {
 .archives-wrapper .archives-year > a {
   color: #555;
 }
-.prev,
-.next {
+.archives-wrapper .archives > article {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.archives-wrapper .prev,
+.archives-wrapper .next {
   position: absolute;
   top: 0;
   width: 50%;
   height: 100%;
   cursor: pointer;
 }
-.prev:before,
-.next:before {
+.archives-wrapper .prev:before,
+.archives-wrapper .next:before {
   position: absolute;
   font: 24px/1 FontAwesome;
   text-align: center;
@@ -561,25 +565,21 @@ article footer .tags:before {
   margin-top: -12px;
   top: 50%;
 }
-.prev {
+.archives-wrapper .prev {
   left: 0;
 }
-.prev:before {
+.archives-wrapper .prev:before {
   content: '\f053';
   left: 10px;
 }
-.next {
+.archives-wrapper .next {
   right: 0;
 }
-.next:before {
+.archives-wrapper .next:before {
   content: '\f054';
   right: 10px;
 }
-.archives > article {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.archives > article header .title {
+.archives-wrapper .next header .title {
   font-size: 1.1em;
 }
 #footer {

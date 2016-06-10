@@ -1,22 +1,16 @@
-extends partial/layout
-
-include mixins/container
-include mixins/paginator
-include mixins/tags
-include mixins/comment
-
+extends base
 block title
-  title= config.title
+  title= page.title + " | " + config.title
 
-block container
-  +post()
 
-block tags
-  +tags()
-
-block pagination
-  +paginator('post')
-
-block comment
-  if theme.comments.post
-    +comment()
+block main
+  .wrapper
+    .container.post-header
+      h1: = page.title
+  article
+    .container.post
+      != page.content
+    if page.comments
+      .container
+        hr
+        include _partial/comments

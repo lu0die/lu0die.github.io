@@ -1,185 +1,22 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  
-  <title>换发型 | 罐子不知道</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  
-    <meta name="author" content="落蝶">
-  
-  
-    <meta name="description" content="很久没去理发了。碰巧这个月15号，我弟结婚。那我到时肯定不能太邋遢，于是决定去理发。">
-  
-  <meta name="description" content="很久没去理发了。碰巧这个月15号，我弟结婚。那我到时肯定不能太邋遢，于是决定去理发。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="换发型">
-<meta property="og:url" content="http://www.lu0die.com/2016/05/13/换发型/index.html">
-<meta property="og:site_name" content="罐子不知道">
-<meta property="og:description" content="很久没去理发了。碰巧这个月15号，我弟结婚。那我到时肯定不能太邋遢，于是决定去理发。">
-<meta property="og:image" content="http://ww4.sinaimg.cn/mw690/6395cf47jw9f3zutluicyj20xc18ge3h.jpg">
-<meta property="og:image" content="http://ww2.sinaimg.cn/mw690/6395cf47jw9f3zviw6me7j20ln0ppdlb.jpg">
-<meta property="og:updated_time" content="2016-05-18T13:52:50.336Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="换发型">
-<meta name="twitter:description" content="很久没去理发了。碰巧这个月15号，我弟结婚。那我到时肯定不能太邋遢，于是决定去理发。">
-  
-  
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'true']);
-  _gaq.push(['_trackPageview']);
+extends partial/layout
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+include mixins/container
+include mixins/paginator
+include mixins/tags
+include mixins/comment
 
-</head>
+block title
+  title= config.title
 
-<body>
-  <div class="wrapper">
-    <header id="header">
-  <div class="title">
-    <h1><a href="/">罐子不知道</a></h1>
-    <p><a href="/">Dream is close to me.</a></p>
-  </div>
-  <nav class="nav">
-    <ul>
-      
-        <li><a href="/">首页</a></li>
-      
-        <li><a href="/archives">归档</a></li>
-      
-        <li><a href="/about">关于</a></li>
-      
-      
-    </ul>
-    <div class="clearfix"></div>
-  </nav>
-  <div class="clearfix"></div>
-</header>
-    <div class="content"><article class="photo">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2016/05/13/换发型/">
-  <time datetime="2016-05-13T13:09:42.000Z">
-    2016-05-13
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title">换发型</h1>
-  
+block container
+  +post()
 
-  </header>
-  
-  <div class="entry">
-    
-      <p><img src="http://ww4.sinaimg.cn/mw690/6395cf47jw9f3zutluicyj20xc18ge3h.jpg" alt="新发型"></p>
-<p>很久没去理发了。<br>碰巧这个月15号，我弟结婚。那我到时肯定不能太邋遢，于是决定去理发。<a id="more"></a></p>
-<p>本来只是想把及腰的长发稍微剪短一些，但是理发师建议剪到锁骨那会显得更好看。<br>后来因为我的头发比较多，放药水好久一直没干，时间就这样一分一秒地过去了。中途我坐不住，特想直接站起来顶着头上包好的小卷卷回家。<br><img src="http://ww2.sinaimg.cn/mw690/6395cf47jw9f3zviw6me7j20ln0ppdlb.jpg" alt="小卷卷"></p>
-<p>幸亏最后赶上了公交954的末班车，不然真得用滴滴打车回家。</p>
+block tags
+  +tags()
 
-    
-  </div>
-  <footer>
-    
-      
-      
-  <div class="tags">
-    <a class="tags-link" href="/tags/生活纪/">生活纪</a>
-  </div>
+block pagination
+  +paginator('post')
 
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-
- <nav id="pagination" >
-    
-    <a href="/2016/06/02/辞职/" class="alignleft prev" >上一页</a>
-    
-    
-    <a href="/2016/05/05/小小鱼儿/" class="alignright next" >下一页</a>
-    
-    <div class="clearfix"></div>
-</nav>
-
-
-
-<section id="comment">
-
-<!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread"></div>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"lu0die"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- Duoshuo Comment END -->  
-
-  
-</section>
-</div>
-  </div>
-  <footer id="footer"><div class="copyright">
-  
-  &copy; 2015 - 2016 <a href="/">落蝶</a>
-  
-</div>
-<div class="theme-copyright">
-  Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>
-   | 
-  Redesign by <a href="http://heroicyang.com/" target="_blank">Heroic Yang</a>
-</div>
-<div class="clearfix"></div></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="/js/scale.fix.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-
-
-<script type="text/javascript">
-  var duoshuoQuery = { short_name: 'lu0die' };
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';
-    ds.async = true;
-    ds.src = 'http://static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script>
-
-
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-  (function($){
-    $('.fancybox').fancybox();
-  })(jQuery);
-</script>
-
-
-</body>
-</html>
+block comment
+  if theme.comments.post
+    +comment()

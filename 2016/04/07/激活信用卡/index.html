@@ -1,193 +1,22 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  
-  <title>激活信用卡 | 罐子不知道</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  
-    <meta name="author" content="落蝶">
-  
-  
-    <meta name="description" content="下午休年假，主要是为了去激活浦发信用卡。然后就可以刷刷刷！结果中途迷路了，开了手机导航才找到。
-等卡片激活以后都1点多了，实在饿得慌。一个人在石鼓路选了家还没去过的店吃面。翻了翻菜单，点了番茄牛肉面，还挺好吃的。一条条地吃面的时候，感觉超有时间。于是随手拍了几个图。">
-  
-  <meta name="description" content="下午休年假，主要是为了去激活浦发信用卡。然后就可以刷刷刷！结果中途迷路了，开了手机导航才找到。
-等卡片激活以后都1点多了，实在饿得慌。一个人在石鼓路选了家还没去过的店吃面。翻了翻菜单，点了番茄牛肉面，还挺好吃的。一条条地吃面的时候，感觉超有时间。于是随手拍了几个图。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="激活信用卡">
-<meta property="og:url" content="http://www.lu0die.com/2016/04/07/激活信用卡/index.html">
-<meta property="og:site_name" content="罐子不知道">
-<meta property="og:description" content="下午休年假，主要是为了去激活浦发信用卡。然后就可以刷刷刷！结果中途迷路了，开了手机导航才找到。
-等卡片激活以后都1点多了，实在饿得慌。一个人在石鼓路选了家还没去过的店吃面。翻了翻菜单，点了番茄牛肉面，还挺好吃的。一条条地吃面的时候，感觉超有时间。于是随手拍了几个图。">
-<meta property="og:image" content="http://ww4.sinaimg.cn/mw690/6395cf47gw1f33inm1338j22io1ronpe.jpg">
-<meta property="og:image" content="http://ww2.sinaimg.cn/mw690/6395cf47gw1f33io6pju1j22io1w0e82.jpg">
-<meta property="og:image" content="http://ww4.sinaimg.cn/mw690/6395cf47gw1f33io9ydk1j22io1w01kx.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/mw690/6395cf47gw1f33io09rp9j21w02iob2b.jpg">
-<meta property="og:image" content="http://ww2.sinaimg.cn/mw690/6395cf47gw1f33inrvv0qj21qi2bi7wi.jpg">
-<meta property="og:updated_time" content="2016-04-20T14:50:00.794Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="激活信用卡">
-<meta name="twitter:description" content="下午休年假，主要是为了去激活浦发信用卡。然后就可以刷刷刷！结果中途迷路了，开了手机导航才找到。
-等卡片激活以后都1点多了，实在饿得慌。一个人在石鼓路选了家还没去过的店吃面。翻了翻菜单，点了番茄牛肉面，还挺好吃的。一条条地吃面的时候，感觉超有时间。于是随手拍了几个图。">
-  
-  
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'true']);
-  _gaq.push(['_trackPageview']);
+extends partial/layout
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+include mixins/container
+include mixins/paginator
+include mixins/tags
+include mixins/comment
 
-</head>
+block title
+  title= config.title
 
-<body>
-  <div class="wrapper">
-    <header id="header">
-  <div class="title">
-    <h1><a href="/">罐子不知道</a></h1>
-    <p><a href="/">Dream is close to me.</a></p>
-  </div>
-  <nav class="nav">
-    <ul>
-      
-        <li><a href="/">首页</a></li>
-      
-        <li><a href="/archives">归档</a></li>
-      
-        <li><a href="/about">关于</a></li>
-      
-      
-    </ul>
-    <div class="clearfix"></div>
-  </nav>
-  <div class="clearfix"></div>
-</header>
-    <div class="content"><article class="photo">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2016/04/07/激活信用卡/">
-  <time datetime="2016-04-07T13:35:56.000Z">
-    2016-04-07
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title">激活信用卡</h1>
-  
+block container
+  +post()
 
-  </header>
-  
-  <div class="entry">
-    
-      <p>下午休年假，主要是为了去激活浦发信用卡。然后就可以刷刷刷！结果中途迷路了，开了手机导航才找到。</p>
-<p>等卡片激活以后都1点多了，实在饿得慌。一个人在石鼓路选了家还没去过的店吃面。翻了翻菜单，点了番茄牛肉面，还挺好吃的。一条条地吃面的时候，感觉超有时间。于是随手拍了几个图。<a id="more"></a><br><img src="http://ww4.sinaimg.cn/mw690/6395cf47gw1f33inm1338j22io1ronpe.jpg" alt="番茄牛肉面"><br><img src="http://ww2.sinaimg.cn/mw690/6395cf47gw1f33io6pju1j22io1w0e82.jpg" alt="京城御面堂01"><br><img src="http://ww4.sinaimg.cn/mw690/6395cf47gw1f33io9ydk1j22io1w01kx.jpg" alt="京城御面堂02"></p>
-<p>后来又去了集美万达逛，转身的时候发现一个小角落挺美的，继续随手拍~<br><img src="http://ww1.sinaimg.cn/mw690/6395cf47gw1f33io09rp9j21w02iob2b.jpg" alt="集美万达"></p>
-<p>想起上回小斯极力推荐的《疯狂动物城》还没看，估计等我忙完它就该从影院里下架了。所以，趁这时机顺便把电影看了。还享受了使用信用卡付款立减十元的优惠。其实我也不缺钱花，办信用卡就是等合适的机会蹭点儿活动。因为是3D的电影，所以对我来说必须戴着两副眼镜看，一开始还真不习惯。但是这电影真的超级好看的！<br><img src="http://ww2.sinaimg.cn/mw690/6395cf47gw1f33inrvv0qj21qi2bi7wi.jpg" alt="疯狂动物城"></p>
-<p>电影快结束的时候，电话响了。那是来自于杏林的一家培训机构，大概的意思是以后若有合适的兼职机会可以去。虽然我目前没有多余的时间，但是挺开心的。</p>
+block tags
+  +tags()
 
-    
-  </div>
-  <footer>
-    
-      
-      
-  <div class="tags">
-    <a class="tags-link" href="/tags/生活纪/">生活纪</a>
-  </div>
+block pagination
+  +paginator('post')
 
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-
- <nav id="pagination" >
-    
-    <a href="/2016/04/30/新手机OPPO-R9/" class="alignleft prev" >上一页</a>
-    
-    
-    <a href="/2016/03/22/吉利莲巧克力/" class="alignright next" >下一页</a>
-    
-    <div class="clearfix"></div>
-</nav>
-
-
-
-<section id="comment">
-
-<!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread"></div>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"lu0die"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- Duoshuo Comment END -->  
-
-  
-</section>
-</div>
-  </div>
-  <footer id="footer"><div class="copyright">
-  
-  &copy; 2015 - 2016 <a href="/">落蝶</a>
-  
-</div>
-<div class="theme-copyright">
-  Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>
-   | 
-  Redesign by <a href="http://heroicyang.com/" target="_blank">Heroic Yang</a>
-</div>
-<div class="clearfix"></div></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="/js/scale.fix.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-
-
-<script type="text/javascript">
-  var duoshuoQuery = { short_name: 'lu0die' };
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';
-    ds.async = true;
-    ds.src = 'http://static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script>
-
-
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-  (function($){
-    $('.fancybox').fancybox();
-  })(jQuery);
-</script>
-
-
-</body>
-</html>
+block comment
+  if theme.comments.post
+    +comment()

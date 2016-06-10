@@ -1,190 +1,22 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  
-  <title>长长的海带 | 罐子不知道</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  
-    <meta name="author" content="落蝶">
-  
-  
-    <meta name="description" content="下午走在回家的路上，碰巧看到有人卖这种长长的海带。它们被挂在一辆车旁，一条一条的垂下来。">
-  
-  <meta name="description" content="下午走在回家的路上，碰巧看到有人卖这种长长的海带。它们被挂在一辆车旁，一条一条的垂下来。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="长长的海带">
-<meta property="og:url" content="http://www.lu0die.com/2016/03/17/长长的海带/index.html">
-<meta property="og:site_name" content="罐子不知道">
-<meta property="og:description" content="下午走在回家的路上，碰巧看到有人卖这种长长的海带。它们被挂在一辆车旁，一条一条的垂下来。">
-<meta property="og:image" content="http://ww3.sinaimg.cn/mw690/6395cf47jw9f1zv189ghmj20jb0lajyt.jpg">
-<meta property="og:updated_time" content="2016-03-20T12:07:36.669Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="长长的海带">
-<meta name="twitter:description" content="下午走在回家的路上，碰巧看到有人卖这种长长的海带。它们被挂在一辆车旁，一条一条的垂下来。">
-  
-  
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'true']);
-  _gaq.push(['_trackPageview']);
+extends partial/layout
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+include mixins/container
+include mixins/paginator
+include mixins/tags
+include mixins/comment
 
-</head>
+block title
+  title= config.title
 
-<body>
-  <div class="wrapper">
-    <header id="header">
-  <div class="title">
-    <h1><a href="/">罐子不知道</a></h1>
-    <p><a href="/">Dream is close to me.</a></p>
-  </div>
-  <nav class="nav">
-    <ul>
-      
-        <li><a href="/">首页</a></li>
-      
-        <li><a href="/archives">归档</a></li>
-      
-        <li><a href="/about">关于</a></li>
-      
-      
-    </ul>
-    <div class="clearfix"></div>
-  </nav>
-  <div class="clearfix"></div>
-</header>
-    <div class="content"><article class="photo">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2016/03/17/长长的海带/">
-  <time datetime="2016-03-17T06:36:27.000Z">
-    2016-03-17
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title">长长的海带</h1>
-  
+block container
+  +post()
 
-  </header>
-  
-  <div class="entry">
-    
-      <p><img src="http://ww3.sinaimg.cn/mw690/6395cf47jw9f1zv189ghmj20jb0lajyt.jpg" alt="长长的海带"></p>
-<p>下午走在回家的路上，碰巧看到有人卖这种长长的海带。它们被挂在一辆车旁，一条一条的垂下来。<br><a id="more"></a><br>这是我见过最长的海带了，立刻就想买来给我妈炖排骨。本来只想买一条，可是那个小伙子不单卖。两条五元。</p>
-<p>我问他：“这是去海里潜水摘来的么？”他说：“不是的。人是在船上，然后用竹竿之类的东西捞上来的。”</p>
-<p>快到家的时候，我家那只在院子外面玩的小狗一看到我就飞奔过来了。</p>
-<p>我妈说这种海带会比较腥一些，她怕不好吃一直不敢买。她没想到我傻乎乎地一瞧见就买了。</p>
-<p>我还是那句话：“买了才有的吃啊！”</p>
-<h3 id="后续补充">后续补充</h3><p>今天20号，中午我妈煮了海带面线给我吃。也就是海带切成丝、海蛎、姜丝、青菜和面线一起煮。</p>
-<p>这海带的口感，吃起来跟公司食堂里卖的那种切成丝炒起来卖的海带没有什么差别。</p>
-<p>我妈说：“先用清水洗洗，再用开水烫一下，这种海带就会变绿了。之所以需要用开水烫，就是要把海带表面的一些粘粘的东西去掉，这样比较干净。”</p>
-<p>总之，海带并没有像别人说的那么难吃。看来还是我妈比较会做饭？！</p>
+block tags
+  +tags()
 
-    
-  </div>
-  <footer>
-    
-      
-      
-  <div class="tags">
-    <a class="tags-link" href="/tags/生活纪/">生活纪</a>
-  </div>
+block pagination
+  +paginator('post')
 
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-
- <nav id="pagination" >
-    
-    <a href="/2016/03/22/吉利莲巧克力/" class="alignleft prev" >上一页</a>
-    
-    
-    <a href="/2016/03/06/快递电脑？/" class="alignright next" >下一页</a>
-    
-    <div class="clearfix"></div>
-</nav>
-
-
-
-<section id="comment">
-
-<!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread"></div>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"lu0die"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- Duoshuo Comment END -->  
-
-  
-</section>
-</div>
-  </div>
-  <footer id="footer"><div class="copyright">
-  
-  &copy; 2015 - 2016 <a href="/">落蝶</a>
-  
-</div>
-<div class="theme-copyright">
-  Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>
-   | 
-  Redesign by <a href="http://heroicyang.com/" target="_blank">Heroic Yang</a>
-</div>
-<div class="clearfix"></div></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="/js/scale.fix.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-
-
-<script type="text/javascript">
-  var duoshuoQuery = { short_name: 'lu0die' };
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';
-    ds.async = true;
-    ds.src = 'http://static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script>
-
-
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-  (function($){
-    $('.fancybox').fancybox();
-  })(jQuery);
-</script>
-
-
-</body>
-</html>
+block comment
+  if theme.comments.post
+    +comment()
